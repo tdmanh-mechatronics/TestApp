@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/textView_skl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="MANH"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        android:text="Message"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_bluetooth"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        android:text="Bluetooth"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        android:text="Back"
+        android:textStyle="bold"/>
+</LinearLayout>
